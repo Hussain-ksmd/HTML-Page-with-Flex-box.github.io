@@ -1,0 +1,93 @@
+.fleximg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .fleximg img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    
+  }
+  
+  .fleximg::after {
+    content: "";
+    width: 350px;
+  }
+  h1 {
+    margin-top: 70px;
+    font-family: Inter,sans-serif;
+    font-style: normal;
+    padding-left: 20px;
+  }
+  .right {
+    text-decoration: none;
+    
+  }
+  .side {
+    display: flex;
+  }
+  button {
+    padding: 20px;
+    width:170px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-family: Inter,sans-serif;
+  }
+  .photo {
+    margin-top: 100px;
+    padding-right: 77px;
+  }
+  .peragraph {
+    padding-right: 90px;
+    padding-left: 20px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    float:right;
+  }
+  label logo {
+  float:right;
+  margin-top: 0px;
+  }
+  .navbar {
+    margin-top: 0px;
+  }
+  nav {
+    margin-top: 0;
+    width: 100%;
+    position: fixed;
+  background-color:black;
+  color:white;
+  padding:20px;
+
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    margin-top: 0px;
+    font-family: Inter,sans-serif;
+    display: block;
+    color: white;
+    margin-left:20px;
+    text-decoration: none;
+  }
+  .last {
+    margin-right: 60px;
+  }
